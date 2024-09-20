@@ -12,8 +12,8 @@ import binascii
 import json
 from bs4 import BeautifulSoup
 from termcolor import colored
-from Crypto import Random
-from Crypto.Cipher import AES
+import Random
+import AES
 
 def main_menu():
 	os.system("clear")
